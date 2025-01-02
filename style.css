@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(176, 111, 143);
+  text-align: center;
+  font-family: "Righteous", serif;
+}
+#main {
+  font-family: "Shrikhand", serif;
+}
+p {
+  font-family: "Righteous", serif;
+}
+footer {
+  font-size: 10px;
+}
+a {
+}
+#city-input {
+  border-radius: 5px;
+  padding: 10px 150px;
+  font-size: 15px;
+  margin: 10px 0px;
+  background-color: rgb(247, 157, 61);
+  border: none;
+  font-family: "Righteous", serif;
+}
+#submit-button {
+  font-size: 15px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  background-color: rgb(247, 157, 61);
+  border: none;
+  font-family: "Righteous", serif;
+}
+#app {
+  background-color: rgb(222, 102, 101);
+  margin: 20px auto;
+  padding: 10px 10px;
+  border-radius: 15px;
+  max-width: 600px;
+}

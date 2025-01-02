@@ -3,25 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My weather app</title>
+    <title>My retro weather app</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&family=Shrikhand&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div id="app">
       <header>
         <form id="city-form">
-          <input
-            id="city-input"
-            type="text"
-            placeholder="Enter a city"
-            id="enter-city"
-          />
+          <input id="city-input" type="text" placeholder="Enter a city" />
           <input id="submit-button" type="submit" />
         </form>
       </header>
       <div id="main">
         <h1>Paris</h1>
         <span class="emoji">🌟</span>
-        <div id="currentTemp">5<span id="tempUnit">°C</span></div>
+        <span id="currentTemp">5</span><span id="tempUnit">°C</span>
         <p>
           <span id="dateTime">Thursday 18:46</span>,<span id="description"
             >light rain</span
@@ -31,10 +33,12 @@
           <strong id="windspeed">4.12 km/h</strong>
         </p>
       </div>
+
+      <footer>
+        This project was coded by <a href="">Sonja</a>, is
+        <a href="">open-sourced on GitHub</a> and
+        <a href="">hosted on Netlify</a>
+      </footer>
     </div>
-    <footer>
-      This project was coded by <a href="">Sonja</a>, is
-      <a href="">open-sourced on GitHub</a> and <a href="">hosted on Netlify</a>
-    </footer>
   </body>
 </html>
