@@ -3,16 +3,22 @@ body {
   text-align: center;
   font-family: "Righteous", serif;
 }
-#main {
-  font-family: "Shrikhand", serif;
-}
 p {
   font-family: "Righteous", serif;
 }
 footer {
   font-size: 10px;
+  color: rgb(0, 116, 153);
 }
 a {
+  color: rgb(0, 116, 153);
+}
+#app {
+  background-color: rgb(222, 102, 101);
+  margin: 20px auto;
+  padding: 10px 10px;
+  border-radius: 15px;
+  max-width: 600px;
 }
 #city-input {
   border-radius: 5px;
@@ -23,6 +29,9 @@ a {
   border: none;
   font-family: "Righteous", serif;
 }
+#main {
+  font-family: "Shrikhand", serif;
+}
 #submit-button {
   font-size: 15px;
   padding: 10px 30px;
@@ -31,10 +40,7 @@ a {
   border: none;
   font-family: "Righteous", serif;
 }
-#app {
-  background-color: rgb(222, 102, 101);
-  margin: 20px auto;
-  padding: 10px 10px;
-  border-radius: 15px;
-  max-width: 600px;
+#submit-button:hover {
+  background-color: rgb(176, 111, 143);
+  transition: all 150ms ease-in-out;
 }
