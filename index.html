@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My weather app</title>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <form id="city-form">
+          <input
+            id="city-input"
+            type="text"
+            placeholder="Enter a city"
+            id="enter-city"
+          />
+          <input id="submit-button" type="submit" />
+        </form>
+      </header>
+      <div id="main">
+        <h1>Paris</h1>
+        <span class="emoji">🌟</span>
+        <div id="currentTemp">5<span id="tempUnit">°C</span></div>
+        <p>
+          <span id="dateTime">Thursday 18:46</span>,<span id="description"
+            >light rain</span
+          >
+          <br />
+          Humidity: <strong id="humidity">95%</strong>, Wind:
+          <strong id="windspeed">4.12 km/h</strong>
+        </p>
+      </div>
+    </div>
+    <footer>
+      This project was coded by <a href="">Sonja</a>, is
+      <a href="">open-sourced on GitHub</a> and <a href="">hosted on Netlify</a>
+    </footer>
+  </body>
+</html>
