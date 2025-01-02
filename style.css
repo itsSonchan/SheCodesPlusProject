@@ -1,75 +1,90 @@
 body {
   background-color: rgb(176, 111, 143);
   font-family: "Righteous", serif;
-  padding: 20px;
+  padding: 50px;
 }
 p {
   font-family: "Righteous", serif;
+  padding: 0px 20px 80px;
 }
 footer {
   font-size: 10px;
-  color: rgb(0, 116, 153);
+  color: rgb(15, 16, 16);
   text-align: center;
 }
 a {
   color: rgb(0, 116, 153);
 }
 h1 {
-  padding-left: 10px;
   font-size: 60px;
   font-family: "Shrikhand", serif;
 }
 strong {
   color: rgb(247, 157, 61);
 }
+header {
+  text-align: center;
+}
 #current-temp {
   font-size: 60px;
-  position: relative;
-  top: 45px;
-  left: 50px;
+  padding: 10px;
 }
-img {
-  position: relative;
-  left: 110px;
-  top: 35px;
-  max-height: 100px;
-}
+
 #main {
   font-family: "Shrikhand", serif;
   display: flex;
   justify-content: space-between;
+  margin-bottom: -70px;
+  padding: 20px 20px 0px;
+  flex-wrap: wrap;
+}
+#right-side {
+  align-content: center;
+  margin: 30px 30px 0px 0px;
+  background-color: rgb(247, 157, 61);
+  padding: 50px 30px;
+  border-radius: 50%;
+  border: dotted 5px rgb(176, 111, 143);
 }
 #temp-unit {
   font-size: 30px;
   position: relative;
-  top: 55px;
-  padding-right: 10px;
+  bottom: 20px;
 }
 #app {
   background-color: rgb(222, 102, 101);
   margin: 20px auto;
-  padding: 10px 10px;
+  padding: 30px 20px;
   border-radius: 15px;
   max-width: 600px;
 }
 #city-input {
   border-radius: 5px;
-  padding: 10px 150px;
+  padding: 20px;
   font-size: 15px;
-  margin: 10px 0px;
+  margin: 10px;
   background-color: rgb(247, 157, 61);
   border: none;
   font-family: "Righteous", serif;
+  box-sizing: border-box;
+  width: 70%;
+  border: dotted 3px rgb(247, 157, 61);
 }
 #submit-button {
   font-size: 15px;
-  padding: 10px 30px;
+  padding: 20px;
   border-radius: 5px;
   background-color: rgb(247, 157, 61);
   border: none;
   font-family: "Righteous", serif;
+  box-sizing: border-box;
+  width: 20%;
+  margin: 10px;
+  border: dotted 3px rgb(247, 157, 61);
 }
 #submit-button:hover {
   background-color: rgb(176, 111, 143);
   transition: all 150ms ease-in-out;
+  border: dotted 3px rgb(247, 157, 61);
+  color: rgb(247, 157, 61);
 }
