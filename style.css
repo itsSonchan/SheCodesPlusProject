@@ -20,7 +20,7 @@ h1 {
   font-family: "Shrikhand", serif;
 }
 strong {
-  color: rgb(247, 157, 61);
+  color: rgb(251, 175, 94);
 }
 header {
   text-align: center;
@@ -45,6 +45,7 @@ header {
   padding: 50px 30px;
   border-radius: 50%;
   border: dotted 5px rgb(176, 111, 143);
+  box-shadow: 5px 5px 5px rgba(152, 69, 6, 0.3);
 }
 #temp-unit {
   font-size: 30px;
@@ -57,6 +58,7 @@ header {
   padding: 30px 20px;
   border-radius: 15px;
   max-width: 600px;
+  box-shadow: 5px 5px 5px rgba(40, 38, 38, 0.1);
 }
 #city-input {
   border-radius: 5px;
@@ -69,6 +71,7 @@ header {
   box-sizing: border-box;
   width: 70%;
   border: dotted 3px rgb(247, 157, 61);
+  box-shadow: 5px 5px 5px rgba(152, 69, 6, 0.3);
 }
 #submit-button {
   font-size: 15px;
@@ -81,6 +84,7 @@ header {
   width: 20%;
   margin: 10px;
   border: dotted 3px rgb(247, 157, 61);
+  box-shadow: 5px 5px 5px rgba(152, 69, 6, 0.3);
 }
 #submit-button:hover {
   background-color: rgb(176, 111, 143);
