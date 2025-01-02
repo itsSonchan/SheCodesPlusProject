@@ -1,7 +1,7 @@
 body {
   background-color: rgb(176, 111, 143);
-  text-align: center;
   font-family: "Righteous", serif;
+  padding: 20px;
 }
 p {
   font-family: "Righteous", serif;
@@ -9,9 +9,41 @@ p {
 footer {
   font-size: 10px;
   color: rgb(0, 116, 153);
+  text-align: center;
 }
 a {
   color: rgb(0, 116, 153);
+}
+h1 {
+  padding-left: 10px;
+  font-size: 60px;
+  font-family: "Shrikhand", serif;
+}
+strong {
+  color: rgb(247, 157, 61);
+}
+#current-temp {
+  font-size: 60px;
+  position: relative;
+  top: 45px;
+  left: 50px;
+}
+img {
+  position: relative;
+  left: 110px;
+  top: 35px;
+  max-height: 100px;
+}
+#main {
+  font-family: "Shrikhand", serif;
+  display: flex;
+  justify-content: space-between;
+}
+#temp-unit {
+  font-size: 30px;
+  position: relative;
+  top: 55px;
+  padding-right: 10px;
 }
 #app {
   background-color: rgb(222, 102, 101);
@@ -28,9 +60,6 @@ a {
   background-color: rgb(247, 157, 61);
   border: none;
   font-family: "Righteous", serif;
-}
-#main {
-  font-family: "Shrikhand", serif;
 }
 #submit-button {
   font-size: 15px;
