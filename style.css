@@ -80,7 +80,6 @@ footer {
   border: dotted 3px rgb(247, 157, 61);
   border-radius: 5px;
   box-shadow: 5px 5px 5px rgba(152, 69, 6, 0.3);
-  box-sizing: border-box;
   color: rgb(67, 33, 19);
   font-family: "Righteous", serif;
   font-size: 15px;
