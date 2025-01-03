@@ -60,7 +60,8 @@ header {
   padding: 30px 20px;
   border-radius: 15px;
   max-width: 600px;
-  box-shadow: 5px 5px 5px rgba(40, 38, 38, 0.1);
+  box-shadow: 5px 5px 10px rgba(40, 38, 38, 0.1);
+  border: solid 2px rgb(67, 33, 19, 0.5);
 }
 #city-input {
   border-radius: 5px;
