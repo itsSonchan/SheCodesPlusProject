@@ -6,14 +6,15 @@ body {
 p {
   font-family: "Righteous", serif;
   padding: 0px 20px 80px;
+  color: rgb(67, 33, 19);
 }
 footer {
   font-size: 10px;
-  color: rgb(15, 16, 16);
+  color: rgb(15, 16, 16, 0.6);
   text-align: center;
 }
 a {
-  color: rgb(0, 116, 153);
+  color: rgb(0, 116, 153, 0.6);
 }
 h1 {
   font-size: 60px;
@@ -35,8 +36,9 @@ header {
   display: flex;
   justify-content: space-between;
   margin-bottom: -70px;
-  padding: 20px 20px 0px;
+  padding: 30px 20px 0px;
   flex-wrap: wrap;
+  color: rgb(67, 33, 19);
 }
 #right-side {
   align-content: center;
@@ -72,7 +74,12 @@ header {
   width: 70%;
   border: dotted 3px rgb(247, 157, 61);
   box-shadow: 5px 5px 5px rgba(152, 69, 6, 0.3);
+  color: rgb(67, 33, 19);
 }
+#city-input::placeholder {
+  color: rgb(67, 33, 19, 0.6);
+}
+
 #submit-button {
   font-size: 15px;
   padding: 20px;
@@ -85,6 +92,7 @@ header {
   margin: 10px;
   border: dotted 3px rgb(247, 157, 61);
   box-shadow: 5px 5px 5px rgba(152, 69, 6, 0.3);
+  color: rgb(67, 33, 19);
 }
 #submit-button:hover {
   background-color: rgb(176, 111, 143);
