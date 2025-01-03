@@ -9,7 +9,9 @@ header {
 h1 {
   font-family: "Shrikhand", serif;
   font-size: 50px;
+  margin-top: 60px;
   margin-left: 15px;
+  margin-bottom: -20px;
   max-width: 50%;
 }
 p {
@@ -20,7 +22,9 @@ p {
   font-family: "Righteous", serif;
   max-width: 35%;
   padding: 30px 20px;
-  margin: 5px 0px 80px 20px;
+  margin: -80px 0px 80px 20px;
+  position: relative;
+  bottom: 30px;
 }
 strong {
   color: rgb(208, 95, 95);
@@ -39,7 +43,7 @@ footer {
   border-radius: 15px;
   box-shadow: 5px 5px 10px rgba(40, 38, 38, 0.1);
   margin: 20px auto;
-  max-width: 700px;
+  max-width: 800px;
   padding: 30px 20px;
 }
 #city-input {
@@ -60,9 +64,13 @@ footer {
 }
 #current-temp {
   font-size: 60px;
-  padding: 20px 10px;
+  padding: 5px;
 }
-
+#icon {
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
 #main {
   color: rgb(67, 33, 19);
   display: flex;
@@ -78,8 +86,10 @@ footer {
   border: dotted 5px rgb(176, 111, 143);
   border-radius: 50%;
   box-shadow: 5px 5px 5px rgba(152, 69, 6, 0.3);
-  margin: 30px 30px 0px 0px;
-  padding: 50px 30px;
+  max-width: 50%;
+  margin: 50px 20px 0px;
+  line-height: 2;
+  padding: 45px 40px 45px 0px;
 }
 
 #submit-button {
