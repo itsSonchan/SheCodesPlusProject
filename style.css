@@ -8,15 +8,22 @@ header {
 }
 h1 {
   font-family: "Shrikhand", serif;
-  font-size: 60px;
+  font-size: 50px;
+  margin-left: 15px;
+  max-width: 50%;
 }
 p {
+  background-color: rgb(247, 157, 61);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(152, 69, 6, 0.3);
   color: rgb(67, 33, 19);
   font-family: "Righteous", serif;
-  padding: 0px 20px 80px;
+  max-width: 35%;
+  padding: 30px 20px;
+  margin: 5px 0px 80px 20px;
 }
 strong {
-  color: rgb(251, 175, 94);
+  color: rgb(208, 95, 95);
 }
 a {
   color: rgb(0, 116, 153, 0.6);
@@ -32,7 +39,7 @@ footer {
   border-radius: 15px;
   box-shadow: 5px 5px 10px rgba(40, 38, 38, 0.1);
   margin: 20px auto;
-  max-width: 600px;
+  max-width: 700px;
   padding: 30px 20px;
 }
 #city-input {
@@ -53,7 +60,7 @@ footer {
 }
 #current-temp {
   font-size: 60px;
-  padding: 10px;
+  padding: 20px 10px;
 }
 
 #main {
