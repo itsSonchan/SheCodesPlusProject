@@ -1,6 +1,6 @@
 let submitForm = document.querySelector("#city-form");
 submitForm.addEventListener("submit", submitButton);
-
+searchCity("Hamburg");
 function searchCity(city) {
   let apiKey = "4d6d3a603f2o058afbtc1e8fa6515357";
   let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
