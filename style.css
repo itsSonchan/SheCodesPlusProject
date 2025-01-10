@@ -1,9 +1,7 @@
 body {
   font-family: "Righteous", serif;
   padding: 50px;
-  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/154/438/original/sixties_themed_wallpaper_design_1201_generated.jpg?1736528152);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: rgb(176, 111, 143);
 }
 header {
   text-align: center;
@@ -29,8 +27,9 @@ p {
   margin: -80px 0px 20px 20px;
   position: relative;
 }
-strong {
-  color: rgb(187, 88, 88);
+#humidity,
+#windspeed {
+  color: rgb(222, 102, 101);
 }
 a {
   color: rgb(0, 116, 153, 0.6);

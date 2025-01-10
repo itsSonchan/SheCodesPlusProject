@@ -36,6 +36,8 @@ function returnTemp(value) {
   icon.innerHTML = `<img src="${weatherIcon}" >`;
   let day = document.querySelector("#date-time");
   day.innerHTML = formatDate(today);
+
+  getForecast(city);
 }
 function formatDate(values) {
   days = [
@@ -57,4 +59,30 @@ function formatDate(values) {
   }
   let weekday = days[values.getDay()];
   return `${weekday} ${hours}:${minutes}, `;
+}
+
+function getForecast(city) {
+  let apiKey = "4d6d3a603f2o058afbtc1e8fa6515357";
+  let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}&units=metric`;
+  axios.get(apiUrl).then(displayForecast);
+}
+
+function displayForecast(response) {
+  console.log(response.data);
+  let days = ["Tue", "Wed", "Thu", "Fri", "Sat"];
+  let forecastHTML = "";
+  days.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `<div>
+       <div class="forecastDay">${day}</div>
+          <div class="forecastIcon">🌈</div>
+          <div id="forecast-temp">
+            <div class="forecastTemp"><strong>15°C</strong></div>
+            <div class="forecastTemp">9°C</div>
+          </div>
+          </div>`;
+  });
+  let forecastElement = document.querySelector("#forecast");
+  forecastElement.innerHTML = forecastHTML;
 }
