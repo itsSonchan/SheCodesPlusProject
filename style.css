@@ -1,18 +1,18 @@
 body {
+  background-color: rgb(176, 111, 143);
   font-family: "Righteous", serif;
   padding: 50px;
-  background-color: rgb(176, 111, 143);
 }
 header {
-  text-align: center;
   margin-bottom: -20px;
+  text-align: center;
 }
 h1 {
   font-family: "Shrikhand", serif;
   font-size: 50px;
-  margin-top: 60px;
-  margin-left: 15px;
   margin-bottom: -20px;
+  margin-left: 15px;
+  margin-top: 60px;
   max-width: 50%;
 }
 p {
@@ -22,11 +22,11 @@ p {
   box-shadow: 5px 5px 5px rgba(152, 69, 6, 0.3);
   color: rgb(67, 33, 19);
   font-family: "Righteous", serif;
+  line-height: 1.8;
+  margin: -80px 0px 20px 20px;
   max-width: 35%;
   padding: 20px 20px;
-  margin: -80px 0px 20px 20px;
   position: relative;
-  line-height: 1.8;
 }
 #humidity,
 #windspeed {
@@ -71,8 +71,8 @@ footer {
 }
 #icon {
   position: relative;
-  top: 30px;
   left: 20px;
+  top: 30px;
 }
 #main {
   color: rgb(67, 33, 19);
@@ -120,18 +120,18 @@ footer {
 }
 
 #forecast {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  margin: 0px 26px 50px;
-  padding: 20px 5px;
-  color: rgb(67, 33, 19);
-  border-radius: 10px;
   background-color: rgb(247, 157, 61);
+  border: solid 2px rgb(176, 111, 143);
+  border-radius: 10px;
   box-shadow: 0 0 0 4px rgb(0, 116, 153), 0 0 0 6px rgba(152, 69, 6),
     8px 8px 5px rgba(152, 69, 6, 0.3);
-  border: solid 2px rgb(176, 111, 143);
+  color: rgb(67, 33, 19);
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 26px 50px;
   outline: solid 2px rgb(222, 102, 101);
+  padding: 20px 5px;
+  text-align: center;
 }
 
 .forecastIcon {
