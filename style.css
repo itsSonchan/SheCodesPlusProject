@@ -117,17 +117,23 @@ footer {
   font-size: 30px;
   position: relative;
 }
+
 #forecast {
   display: flex;
   justify-content: space-around;
   text-align: center;
-  margin-bottom: 50px;
+  margin: 0px 26px 50px;
   padding: 20px 5px;
   color: rgb(67, 33, 19);
   border-radius: 10px;
+  background-color: rgb(247, 157, 61);
+  box-shadow: 0 0 0 4px rgb(0, 116, 153), 0 0 0 6px rgba(152, 69, 6),
+    8px 8px 5px rgba(152, 69, 6, 0.3);
+  border: solid 2px rgb(176, 111, 143);
+  outline: solid 2px rgb(222, 102, 101);
 }
+
 .forecastIcon {
-  font-size: 30px;
   padding: 20px 0px;
 }
 #forecast-temp {
@@ -136,4 +142,8 @@ footer {
 }
 .forecastTemp {
   padding: 5px;
+}
+
+.max {
+  color: rgb(222, 102, 101);
 }
